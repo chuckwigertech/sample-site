@@ -37,33 +37,56 @@
 
 
 
-
-  <header class="text-gray-100 body-font bg-red-700">
-    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-      <a href="../index.html" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-
-
-        <img src="../content/more-assets/Minnesota_Map-bold-small.png" class="w-10 h10">
-        <span class="ml-3 text-xl text-gray-100">Chuck Wiger</span>
+  <nav class="flex items-center justify-between flex-wrap bg-red-700 p-6 fixed w-full z-10 top-0 text-gray-100">
+    <!-- SOURCE: https://www.tailwindtoolbox.com/templates/responsive-header-->
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+      <a class="text-white no-underline hover:text-white hover:no-underline" href="../index.html">
+        <span class="text-2xl pl-2"><i class="em em-grinning"></i> Chuck Wiger</span>
       </a>
-      <nav
-        class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-        <a href="../endorsements/index.html" class="mr-5 hover:text-gray-300">Endorsements</a>
-        <a href="../platform/index.html" class="mr-5 hover:text-gray-300">Platform</a>
-        <a href="#" class="mr-5 hover:text-gray-300">About Chuck</a>
-        <a href="../how-to-help/index.html" class="mr-5 hover:text-gray-300">How to Help</a>
-        <a href="../covid-19/index.html" class="mr-5 hover:text-red-300 text-red-100 font-medium">Covid-19 Info</a>
-      </nav>
-      <a href="https://paypal.com" target="blank"><button
-          class="inline-flex items-center bg-orange-500 border-0 py-1 px-3 focus:outline-none hover:bg-orange-600 rounded text-base mt-4 md:mt-0">Donate
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </button></a>
     </div>
-  </header>
-
+  
+    <div class="block lg:hidden">
+      <button id="nav-toggle"
+        class="flex items-center px-3 py-2 border rounded text-gray-100 border-gray-100 hover:text-white hover:border-white">
+        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+      </button>
+    </div>
+  
+    <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden  pt-6 lg:pt-0" id="nav-content">
+      <ul class="list-reset lg:flex justify-end flex-1 items-center">
+        <li class="mr-3"><a
+          class="inline-block text-gray-100 no-underline hover:text-gray-200 hover:text-underline py-2 pr-4"
+          href="#">About Chuck</a></li>
+          <li class="mr-3"><a
+            class="inline-block text-gray-100 no-underline hover:text-gray-200 hover:text-underline py-2 pr-4"
+            href="../platform/index.html">Priorities</a></li>
+        <li class="mr-3"><a class="inline-block py-2 pr-4 text-white no-underline"
+            href="../endorsements/">Endorsements</a></li>
+            <li class="mr-3"><a class="inline-block py-2 pr-4 text-white no-underline"
+              href="../awards/">Awards</a></li>
+  
+        <!-- <li class="mr-3"><a
+            class="inline-block text-gray-100 no-underline hover:text-gray-200 hover:text-underline py-2 pr-4"
+            href="how-to-help/index.html">How to Help</a></li> -->
+        <!-- <li class="mr-3"><a
+            class="inline-block text-gray-100 no-underline hover:text-gray-200 hover:text-underline py-2 pr-4"
+            href="gallery/index.html">Gallery</a></li> -->
+        <li class="mr-3"><a
+            class="inline-block mr-5 hover:text-red-300 text-red-100 font-medium no-underline hover:text-underline py-2 pr-4"
+            href="../covid-19/index.html">Covid-19 Info</a></li>
+        <a href="https://paypal.com" target="blank"><button
+            class="inline-flex items-center bg-blue-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-600 rounded text-base mt-4 md:mt-0">Donate
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button></a>
+      </ul>
+    </div>
+  </nav>
 
 
 
@@ -108,33 +131,60 @@
 
 
   <section class="text-gray-900 body-font">
-    <div class="container mx-auto flex px-5 pb-4 pt-24 items-center justify-center flex-col">
+    <div class="container mx-auto flex px-5 pb-4 pt-40 items-center justify-center flex-col">
       <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"
-        src="../content/chuck/chuck-with-family.jpg">
+        src="../content/chuck/young-chuck.jpg">
       <div class="text-center lg:w-2/3 w-full">
-        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Candidate Bio</h1>
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+          Senator Charles W. Wiger</h1>
         <p class="mb-8 leading-relaxed">
-          Chuck Wiger was first elected to the District 622 North Saint Paul-Maplewood-Oakdale School
-          Board when he was 21. For three decades, he was elected and re-elected seven times and
-          completed his final three years as Chair. Chuck was elected twice as a Supervisor on the Ramsey
-          County Soil and Water Conservation District Board. From 1983 to 1989, Wiger served as a
-          member of the Metropolitan Council for suburban Ramsey, Washington, and Hennepin counties.
-          Wiger is a graduate of North High School, Hamline University (B.A., magna cum laude, J.D.)
-          and the University of Colorado (Boulder) School for Institution Management. He is a retired attorney. Prior to
-          that service he managed several area chambers of commerce.
+          I grew up in North St. Paul. So did my parents, George and Helen. I graduated from North High, Hamline
+          University (JD, BA) and the University of Colorado, Boulder, Institute for Organization Management.
         </p>
 
-        <p class="mb-8 leading-relaxed">Chuck Wiger lives in Maplewood and has five children: Jessica, Charlie,
-          Angelina, Brittany and Carolyn and five grandchildren: Mason, Avery, Zachary, Adrianna
-          and Luca. He has coached youth sports for over 25 years and
-          served on numerous boards and committees. In his spare time,
-          Chuck enjoys his family and hiking.</p>
+        <p class="mb-8 leading-relaxed">
+          I’m an attorney and recently retired from Securian (law/compliance). I previously worked in government affairs
+          for the St. Paul Area Chamber of Commerce, and also managed several east metro community chambers. Prior to
+          that, I had a variety of very interesting jobs: dishwasher, custodian, parked cars, waiter, traveled with the
+          circus, clubhouse assistant for Doc Lenz and Ray Crump/Minnesota Twins , reporter, orderly, deckhand on ship
+          and lobbyist.
+        </p>
+
+        <p class="mb-8 leading-relaxed">
+          I have been actively involved in public service and community for most of my adult life. I was first elected
+          to the District 622 North Saint Paul-Maplewood-Oakdale School Board when I was 21. For three decades, I was
+          elected and re-elected seven times and completed my final three years as chair. I was also elected twice as a
+          Supervisor on the Ramsey County Soil and Water Conservation District Board. From 1983 to 1989, I served as a
+          member of the Metropolitan Council representing suburban Ramsey, Washington, and Hennepin counties.
+        </p>
+
+        <p class="mb-8 leading-relaxed">
+          As a state senator, I chaired the education policy and finance committees, and the election committee, plus
+          the senate legislative delegations for Ramsey and Washington Counties, and St. Paul. I work hard and
+          thoughtfully. I have earned numerous Legislator of the Year awards and recognition from groups representing
+          our schools, the environment, social justice, labor, business and health care.
+        </p>
+
+        <p class="mb-8 leading-relaxed">I live in Maplewood and have five children: Jessica, Charlie, Angelina, Brittany
+          and Carolyn and five grandchildren: Mason, Avery, Zachary, Adrianna and Luca. I coached youth sports for over
+          25 years, served on the parish council and numerous community boards and committees. In my spare time, I enjoy
+          family, playing scrabble and the outdoors.</p>
+
+
+         <button class="mb-12 mt-4 py-8 ">
+          <a  class=" bg-transparent hover:bg-red-500 text-red-700 font-semibold hover:text-white py-8 sm:px-32 px-16 border border-red-500 hover:border-transparent rounded capitalize text-3xl" target=blank href="https://www.senate.mn/members/member_bio.html?mem_id=1067">legislation</a>
+         </button>
 
       </div>
+
+      <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"
+      src="../content/chuck/chuck-with-family-2.png">
     </div>
   </section>
 
-  <section class="text-gray-900 body-font bg-gray-100">
+
+
+  <!-- <section class="text-gray-900 body-font bg-gray-100">
     <div class="container mx-auto flex px-5 py-4 md:flex-row flex-col items-center">
       <div
         class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -163,13 +213,14 @@
 
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img class="object-cover object-center rounded" alt="hero" src="../content/chuck/chuck-advocating-fire-fighters.jpg">
+        <img class="object-cover object-center rounded" alt="hero"
+          src="../content/chuck/chuck-advocating-fire-fighters.jpg">
       </div>
     </div>
-  </section>
+  </section> -->
 
 
-
+<!-- 
   <section class="text-gray-900 body-font">
     <div class="container mx-auto flex px-5 py-4 md:flex-row flex-col items-center">
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
@@ -266,8 +317,50 @@
       </div>
     </div>
   </section>
+ -->
+
+<!-- 
 
 
+ <section class="text-gray-900 body-font bg-gray-100">
+  <div class="container px-5 pb-64 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
+        <div class="flex relative">
+          <img alt="Council 5 AFSCME" class="absolute inset-0 w-full object-contain   object-center rounded"
+            src="../content/chuck/young-chuck-3.jpg">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
+
+      
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center rounded"
+            src="../content/chuck/young-chuck-4.jpg">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
+
+
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center rounded"
+            src="../content/chuck/young-chuck-5.jpg">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
+          </div>
+        </div>
+      </div> -->
+
+
+    </div>
+  </div>
+</section>
 
 
 
@@ -311,8 +404,8 @@
 
       <p class="text-sm text-gray-100 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-100 sm:py-2 sm:mt-0 mt-4">© 2020
         Chuck Wiger — Paid for by Wiger for Senate Volunteer Committee
-1577 Legacy Parkway, #2
-Maplewood, MN 55109
+        1577 Legacy Parkway, #2
+        Maplewood, MN 55109
 
       </p>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
@@ -348,13 +441,29 @@ Maplewood, MN 55109
         </a>
 
 
+        <a class="ml-3 text-gray-100" href="https://www.flickr.com/photos/191217383@N05/?" target="blank">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="7" cy="12" r="5" fill="#fff"/>
+              <circle cx="17" cy="12" r="5"/>
+            </svg>
+          </svg>
+        </a>
+<!-- More images here: https://flic.kr/s/aHsktQtrwY -->
+
       </span>
     </div>
   </footer>
 
 
 
-
+  <script>
+    //Javascript to toggle the menu
+    document.getElementById('nav-toggle').onclick = function () {
+      document.getElementById("nav-content").classList.toggle("hidden");
+    }
+  </script>
 
 
 </body>
