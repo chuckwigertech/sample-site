@@ -37,58 +37,61 @@
 <body>
 
   <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="QKJJ3Fm0"></script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0"
+    nonce="QKJJ3Fm0"></script>
 
 
 
 
 
-<nav class="flex items-center justify-between flex-wrap bg-red-700 p-6 fixed w-full z-20 top-0 text-gray-100">
-  <!-- SOURCE: https://www.tailwindtoolbox.com/templates/responsive-header-->
-  <div class="flex items-center flex-shrink-0 text-white mr-6">
-    <a class="text-white no-underline hover:text-white hover:no-underline" href="#">
-      <img class="rounded" src="content/more-assets/chuck-sign-tagline-small.jpg" alt="Chuck Wiger Lawn Sign">
-      <!-- <span class="text-2xl pl-2"><i class="em em-grinning"></i> Chuck Wiger</span> -->
-    </a>
-  </div>
+  <nav class="flex items-center justify-between flex-wrap bg-red-700 p-6 fixed w-full z-20 top-0 text-gray-100">
+    <!-- SOURCE: https://www.tailwindtoolbox.com/templates/responsive-header-->
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+      <a class="text-white no-underline hover:text-white hover:no-underline" href="#">
+        <img class="rounded" src="content/more-assets/chuck-sign-tagline-small.jpg" alt="Chuck Wiger Lawn Sign">
+        <!-- <span class="text-2xl pl-2"><i class="em em-grinning"></i> Chuck Wiger</span> -->
+      </a>
+    </div>
 
-  <div class="block lg:hidden">
-    <button id="nav-toggle"
-      class="flex items-center px-3 py-2 border rounded text-gray-100 border-gray-100 hover:text-white hover:border-white">
-      <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-        <title>Menu</title>
-        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-      </svg>
-    </button>
-  </div>
+    <div class="block lg:hidden">
+      <button id="nav-toggle"
+        class="flex items-center px-3 py-2 border rounded text-gray-100 border-gray-100 hover:text-white hover:border-white">
+        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+      </button>
+    </div>
 
-  <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden  pt-6 lg:pt-0" id="nav-content">
-    <ul class="list-reset lg:flex justify-end flex-1 items-center">
-      <li class="mr-3"><a
-        class="inline-block text-gray-100 no-underline hover:text-gray-200 hover:text-underline py-2 pr-4"
-        href="about/index.html">About Chuck</a></li>
+    <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden  pt-6 lg:pt-0" id="nav-content">
+      <ul class="list-reset lg:flex justify-end flex-1 items-center">
         <li class="mr-3"><a
-          class="inline-block text-gray-100 no-underline hover:text-gray-200 hover:text-underline py-2 pr-4"
-          href="platform/index.html">Priorities</a></li>
-      <li class="mr-3"><a class="inline-block py-2 pr-4 text-white no-underline"
-          href="endorsements/index.html">Endorsements</a></li>
-          <li class="mr-3"><a class="inline-block py-2 pr-4 text-white no-underline"
-            href="awards/index.html">Awards</a></li>
+            class="inline-block text-gray-100 no-underline hover:text-gray-200 hover:text-underline py-2 pr-4"
+            href="about/index.html">About Chuck</a></li>
+        <li class="mr-3"><a
+            class="inline-block text-gray-100 no-underline hover:text-gray-200 hover:text-underline py-2 pr-4"
+            href="platform/index.html">Priorities</a></li>
+        <li class="mr-3"><a class="inline-block py-2 pr-4 text-white no-underline"
+            href="endorsements/index.html">Endorsements</a></li>
+        <li class="mr-3"><a class="inline-block py-2 pr-4 text-white no-underline" href="awards/index.html">Awards</a>
+        </li>
+        <li class="mr-3"><a class="inline-block py-2 pr-4 text-white no-underline capitalize" href="#social">Social media</a>
+        </li>
 
 
-      <li class="mr-3"><a
-          class="inline-block mr-5 hover:text-red-300 text-red-100 font-medium no-underline hover:text-underline py-2 pr-4"
-          href="covid-19/index.html">Covid-19 Info</a></li>
-      <a href="https://secure.actblue.com/donate/wiger-for-senate-volunteer-committee-1" target="blank"><button
-          class="inline-flex items-center bg-blue-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-600 rounded text-base mt-4 md:mt-0">Donate
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </button></a>
-    </ul>
-  </div>
-</nav>
+        <li class="mr-3"><a
+            class="inline-block mr-5 hover:text-red-300 text-red-100 font-medium no-underline hover:text-underline py-2 pr-4"
+            href="covid-19/index.html">Covid-19 Info</a></li>
+        <a href="https://secure.actblue.com/donate/wiger-for-senate-volunteer-committee-1" target="blank"><button
+            class="inline-flex items-center bg-blue-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-600 rounded text-base mt-4 md:mt-0">Donate
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button></a>
+      </ul>
+    </div>
+  </nav>
 
 
 
@@ -98,13 +101,15 @@
     <div class="container mx-auto flex px-5 pt-40 pb-24 md:flex-row flex-col-reverse items-center">
       <div
         class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center ">
-        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-700">Senator Chuck Wiger
-          <br class="hidden lg:inline-block"> Dedicated Leader for Our Community
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-700 text-center lg:ml-32 ">Senator Chuck Wiger
+          <!-- <br class="hidden lg:inline-block"> Dedicated Leader for Our Community -->
         </h1>
         <p class=" leading-relaxed">Dear Friends and Neighbors,<br><br>
-          Thanks for the honor of representing you. I am deeply committed to making our area a great place to live, attend school, work, and enjoy parks and trails. 
+          Thanks for the honor of representing you. I am deeply committed to making our area a great place to live,
+          attend school, work, and enjoy parks and trails.
           <br><br>
-          I appreciate hearing from you. Whether it’s a phone call, email or letter, your ideas matter and help shape my decisions. 
+          I appreciate hearing from you. Whether it’s a phone call, email or letter, your ideas matter and help shape my
+          decisions.
           <br><br>
           Please contact me anytime as needed. Together, we accomplish more.
 
@@ -114,7 +119,8 @@
         <img class="w-40 m-1 mb-20" src="content/more-assets/chuck-signature.png" alt="Chuck signature">
 
 
-        <p class="leading-relaxed mb-3 capitalize text-xl">Subscribe <span class="lowercase">to</span> our newsletter</p>
+        <p class="leading-relaxed mb-3 capitalize text-xl">Subscribe <span class="lowercase">to</span> our newsletter
+        </p>
         <p class="leading-relaxed mb-2 capitalize text-xl">Get the latest updates</p>
         <form
           action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfD9J-CZwqMP1yFz-PT1HyckyzuXWoq6GW0Uom55umgmrm7yQ/formResponse"
@@ -131,11 +137,13 @@
           </div>
         </form>
 
-        
+
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img class="object-cover object-center rounded" alt="Chuck standing outside after biking" src="content/chuck/chuck-outside-memorial-beach-white-bear-lake-2-cropped.jpg">
-        <p class="leading-relaxed mb-2 capitalize text-xl text-center text-blue-400">Dedicated Leader for Our Community</p>
+        <img class="object-cover object-center rounded" alt="Chuck standing outside after biking"
+          src="content/chuck/chuck-outside-memorial-beach-white-bear-lake-2-cropped.jpg">
+        <p class="leading-relaxed mb-2 capitalize text-xl text-center text-blue-400">Dedicated Leader for Our Community
+        </p>
       </div>
     </div>
   </section>
@@ -146,19 +154,25 @@
 
   <section class="text-gray-700 body-font relative">
     <div class="absolute inset-0 bg-gray-300">
-      <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.4911465676546!2d-93.10402922058265!3d44.954011395167974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f62aabf8502cdb%3A0x210e330187dec9b1!2sUpper%20Mall%20Minnesota%20State%20Capitol!5e0!3m2!1sen!2sus!4v1606723929980!5m2!1sen!2sus" style="filter:  contrast(1) opacity(0.7);">></iframe>
+      <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.4911465676546!2d-93.10402922058265!3d44.954011395167974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f62aabf8502cdb%3A0x210e330187dec9b1!2sUpper%20Mall%20Minnesota%20State%20Capitol!5e0!3m2!1sen!2sus!4v1606723929980!5m2!1sen!2sus"
+        style="filter:  contrast(1) opacity(0.7);">></iframe>
       <!-- <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe> -->
     </div>
     <div class="container px-5 py-24 mx-auto flex">
-      <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10">
+      <div
+        class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10">
         <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Contact Senator Chuck Wiger</h2>
         <ul>
           <li>Office: 651-296-6820</li>
           <li>Cell: 651-770-0283</li>
           <li>Email: sen.chuck.wiger@senate.mn.com</li>
-          <li>DFL Site: <a class="text-blue-500" target='blank' href="http://senatedfl.mn/home/members/senator-chuck-wiger/">Chuck Wiger</a> </li>
-          <li>FB: <a class="text-blue-500" target='blank' href="https://www.facebook.com/senatorwiger">facebook.com/senatorwiger</a></li>
-          <li>Twitter: <a class="text-blue-500"target='blank' href="https://twitter.com/ChuckWiger">@ChuckWiger</a></li>
+          <li>DFL Site: <a class="text-blue-500" target='blank'
+              href="http://senatedfl.mn/home/members/senator-chuck-wiger/">Chuck Wiger</a> </li>
+          <li>FB: <a class="text-blue-500" target='blank'
+              href="https://www.facebook.com/senatorwiger">facebook.com/senatorwiger</a></li>
+          <li>Twitter: <a class="text-blue-500" target='blank' href="https://twitter.com/ChuckWiger">@ChuckWiger</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -171,14 +185,14 @@
   <section class="text-gray-900 body-font">
     <div class="container px-5 pt-24 pb-4 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
-        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Endorsements</h1>
+        <h1 class="sm:text-5xl text-3xl font-medium title-font mb-4 text-gray-900">Endorsements</h1>
 
       </div>
       <div class="flex flex-wrap -m-4">
         <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
           <div class="flex relative">
-            <img alt="Education Minnesota" class="absolute inset-0 w-full object-contain   object-center"
-              src="content/endorsement-images/Education-Minnesota.jpg">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/Education-Minnesota.jpg">
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
 
               <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Education MN</h1>
@@ -188,8 +202,8 @@
         </div>
         <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
           <div class="flex relative">
-            <img alt="MAPE" class="absolute inset-0 w-full object-contain   object-center"
-              src="content/endorsement-images/MAPE-logo.png">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/MAPE-logo.png">
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
 
               <h1 class="title-font text-lg font-medium text-gray-900 mb-3">MAPE</h1>
@@ -200,11 +214,11 @@
 
         <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
           <div class="flex relative">
-            <img alt="Clean Water Action" class="absolute inset-0 w-full object-contain   object-center"
-              src="content/endorsement-images/clean-water-action.png">
+            <img alt="Council 5 AFSCME" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/1280px-AFL-CIO-seal.svg.png">
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
-
-              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Clean Water Action</h1>
+ 
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Council 5 AFSCME</h1>
               <p class="leading-relaxed">Chuck Wiger is proud to be endorsed by these organizations and groups during his campaign and tenure.</p>
             </div>
           </div>
@@ -212,8 +226,20 @@
 
         <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
           <div class="flex relative">
-            <img alt="Conservation MN Voter Center" class="absolute inset-0 w-full object-contain   object-center"
-              src="content/endorsement-images/CMVC-logo-horiz-060920-transp.png">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/clean-water-action.png">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
+
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Endorsement</h1>
+              <p class="leading-relaxed">Chuck Wiger is proud to be endorsed by these organizations and groups during his campaign and tenure.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/CMVC-logo-horiz-060920-transp.png">
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
 
               <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Conservation MN Voter Center</h1>
@@ -224,11 +250,11 @@
 
         <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
           <div class="flex relative">
-            <img alt="Northeast metro climate action" class="absolute inset-0 w-full object-contain   object-center"
-              src="content/endorsement-images/northeast-metro-climate-action.png">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/northeast-metro-climate-action.png">
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
 
-              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Northeast metro climate action</h1>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Endorsement</h1>
               <p class="leading-relaxed">Chuck Wiger is proud to be endorsed by these organizations and groups during his campaign and tenure.</p>
             </div>
           </div>
@@ -236,11 +262,11 @@
 
         <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
           <div class="flex relative">
-            <img alt="Sierra Club" class="absolute inset-0 w-full object-contain   object-center"
-              src="content/endorsement-images/sierra-club-logo.png">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/sierra-club-logo.png">
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
 
-              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Sierra Club</h1>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Endorsement</h1>
               <p class="leading-relaxed">Chuck Wiger is proud to be endorsed by these organizations and groups during his campaign and tenure.</p>
             </div>
           </div>
@@ -249,7 +275,7 @@
         <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
           <div class="flex relative">
             <img alt="Council 5 AFSCME" class="absolute inset-0 w-full object-contain   object-center"
-              src="content/endorsement-images/c5_transp_logo_hard_glow_outside_0.png">
+              src="../content/endorsement-images/c5_transp_logo_hard_glow_outside_0.png">
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
  
               <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Council 5 AFSCME</h1>
@@ -257,10 +283,12 @@
             </div>
           </div>
         </div>
+
+
         <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
           <div class="flex relative">
-            <img alt="Care Providers" class="absolute inset-0 w-full object-contain   object-center"
-              src="content/endorsement-images/care-providers-mn.png">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/care-providers-mn.png">
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
 
               <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Care Providers of Minnesota</h1>
@@ -272,8 +300,8 @@
 
         <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
           <div class="flex relative">
-            <img alt="IUOE Local 49" class="absolute inset-0 w-full object-contain   object-center"
-              src="content/endorsement-images/iuoe-local-49.png">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/iuoe-local-49.png">
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
 
               <h1 class="title-font text-lg font-medium text-gray-900 mb-3">IUOE-Local 49</h1>
@@ -284,13 +312,152 @@
 
 
 
+        
+        <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/mna-logo.jpeg">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
+
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Endorsement</h1>
+              <p class="leading-relaxed">Chuck Wiger is proud to be endorsed by these organizations and groups during his campaign and tenure.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/mnppoa.png">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
+
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Endorsement</h1>
+              <p class="leading-relaxed">Chuck Wiger is proud to be endorsed by these organizations and groups during his campaign and tenure.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/MPFF-Logo.png">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
+
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Endorsement</h1>
+              <p class="leading-relaxed">Chuck Wiger is proud to be endorsed by these organizations and groups during his campaign and tenure.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+ 
+
+
+
+
+        <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/regional-Council-Logo.jpg">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
+
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Endorsement</h1>
+              <p class="leading-relaxed">Chuck Wiger is proud to be endorsed by these organizations and groups during his campaign and tenure.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/SEIU-logo.jpg">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
+
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Endorsement</h1>
+              <p class="leading-relaxed">Chuck Wiger is proud to be endorsed by these organizations and groups during his campaign and tenure.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/teamster-jc32.jpg">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
+
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Endorsement</h1>
+              <p class="leading-relaxed">Chuck Wiger is proud to be endorsed by these organizations and groups during his campaign and tenure.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        
+
+       
+
+        <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/smart-logo.png">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
+
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Endorsement</h1>
+              <p class="leading-relaxed">Chuck Wiger is proud to be endorsed by these organizations and groups during his campaign and tenure.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/NARAL_MN_DIGITAL.png">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
+
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Endorsement</h1>
+              <p class="leading-relaxed">Chuck Wiger is proud to be endorsed by these organizations and groups during his campaign and tenure.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/outfront-mn.png">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
+
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Endorsement</h1>
+              <p class="leading-relaxed">Chuck Wiger is proud to be endorsed by these organizations and groups during his campaign and tenure.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="lg:w-1/3 sm:w-1/2 px-10 py-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full object-contain   object-center"
+              src="../content/endorsement-images/protect-mn.png">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
+
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Endorsement</h1>
+              <p class="leading-relaxed">Chuck Wiger is proud to be endorsed by these organizations and groups during his campaign and tenure.</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
+
+
   </section>
 
-  <div class="flex justify-center mb-20">
-<a href="endorsements/index.html">    <button
-  class="inline-flex text-white bg-red-500 
+  <div class="flex justify-center mt-16 mb-20">
+    <a href="endorsements/index.html"> <button class="inline-flex text-white bg-red-500 
   border-0 py-2 px-6 focus:outline-none hover:bg-red-600 
   rounded text-lg capitalize">View all endorsements</button></a>
   </div>
@@ -299,21 +466,31 @@
   <section class="text-gray-900 body-font bg-red-100">
     <div class="container px-5 py-24 mx-auto">
       <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
-        <h2 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">Proud to continue serving and advocating for you. Together, let's
+        <h2 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">Proud to continue serving and
+          advocating for you. Together, let's
           make a smarter, safer, and healthier Minnesota.</h2>
-        <a class="self-center" href="https://secure.actblue.com/donate/wiger-for-senate-volunteer-committee-1" target="blank"><button class="flex-shrink-0 text-white bg-red-500 border-0 py-2 px-8
+        <a class="self-center" href="https://secure.actblue.com/donate/wiger-for-senate-volunteer-committee-1"
+          target="blank"><button class="flex-shrink-0 text-white bg-red-500 border-0 py-2 px-8
         focus:outline-none hover:bg-red-600 rounded text-lg mt-10 sm:mt-0">Donate</button></a>
       </div>
     </div>
   </section>
 
-  <section class="text-gray-700 body-font">
+  <section class="text-gray-700 body-font" id="social">
+    <h2 class="sm:text-5xl text-3xl font-medium title-font mb-4 text-gray-900 text-center mt-16 capitalize">Social Media</h2>
     <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center justify-between">
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <div class="fb-page" data-href="https://www.facebook.com/senatorwiger" data-tabs="timeline" data-width="700" data-height="800" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/senatorwiger" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/senatorwiger">Senator Chuck W. Wiger Facebook</a></blockquote></div>
+        <div class="fb-page" data-href="https://www.facebook.com/senatorwiger" data-tabs="timeline" data-width="700"
+          data-height="800" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+          data-show-facepile="true">
+          <blockquote cite="https://www.facebook.com/senatorwiger" class="fb-xfbml-parse-ignore"><a
+              href="https://www.facebook.com/senatorwiger">Senator Chuck W. Wiger Facebook</a></blockquote>
+        </div>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <a class="twitter-timeline" data-width="700" data-height="800" href="https://twitter.com/ChuckWiger?ref_src=twsrc%5Etfw">Tweets by ChuckWiger</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a class="twitter-timeline" data-width="700" data-height="800"
+          href="https://twitter.com/ChuckWiger?ref_src=twsrc%5Etfw">Tweets by ChuckWiger</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
   </section>
@@ -325,10 +502,16 @@
   <section class="text-gray-700 body-font">
     <div class="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center justify-between">
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 m-10">
-        <iframe class="lg:max-w-lg lg:w-full md:w-full w-full" width="560" height="315" src="https://www.youtube-nocookie.com/embed/cRjHOX2CaKQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="lg:max-w-lg lg:w-full md:w-full w-full" width="560" height="315"
+          src="https://www.youtube-nocookie.com/embed/cRjHOX2CaKQ" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 m-10">
-        <iframe class="lg:max-w-lg lg:w-full md:w-full w-full" width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZWpLMnqZFKg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="lg:max-w-lg lg:w-full md:w-full w-full" width="560" height="315"
+          src="https://www.youtube-nocookie.com/embed/ZWpLMnqZFKg" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
       </div>
     </div>
   </section>
@@ -385,9 +568,10 @@
         <a class="ml-3 text-gray-100" href="https://www.flickr.com/photos/191217383@N05/?" target="blank">
           <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
             class="w-5 h-5" viewBox="0 0 24 24">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="7" cy="12" r="5" fill="#fff"/>
-              <circle cx="17" cy="12" r="5"/>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="7" cy="12" r="5" fill="#fff" />
+              <circle cx="17" cy="12" r="5" />
             </svg>
           </svg>
         </a>
